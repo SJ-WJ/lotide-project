@@ -27,6 +27,8 @@ const map = function(array, callback) {
   return results;
 };
 
+module.exports = map;
+
 
 //TEST CODE
 const words = ["boston", "celtics", "are", "champions"];

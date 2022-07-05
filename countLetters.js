@@ -27,5 +27,7 @@ const countLetters = function(string) {
   
 };
 
+module.exports = countLetters;
+
 const test = countLetters("Lighthouse Labs");
 console.log(test);

@@ -39,6 +39,8 @@ const without = (array1, array2) => {
   return emptyArray;
 };
 
+module.exports = without;
+
 // TEST CODE
 console.log(without([1, 2, 3], [1])); // => [2, 3]
 console.log(without(["1", "2", "3"], [1, 2, "3"])); // => ["1", "2"]
